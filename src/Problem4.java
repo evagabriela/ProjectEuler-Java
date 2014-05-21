@@ -25,7 +25,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
         return maxNumber;
     }
 
-    private ArrayList<Integer> palindromeNumber(){
+    protected ArrayList<Integer> palindromeNumber(){
 
         ArrayList<Integer> palindrome = new ArrayList<Integer>();
         int a;
@@ -42,7 +42,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
         return palindrome;
     }
 
-    private boolean isPaling(int number) {
+    protected boolean isPaling(int number) {
 
         String numberString = String.valueOf(number);
 
