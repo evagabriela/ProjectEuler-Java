@@ -20,5 +20,14 @@ public class Main {
         Problem4 largestPalindrome = new Problem4();
         String problem4Solution = largestPalindrome.run();
         System.out.println(problem4Solution + " is the largest palindrome made from the product of two 3-digit numbers");
+
+
+//Problem 5:
+        Problem5 problem5 = new Problem5();
+        String problem5Solution = problem5.run();
+        System.out.println(problem5Solution+" is the smallest number evenly divisible by all numbers from 1 - 20");
+
     }
+
 }
+
