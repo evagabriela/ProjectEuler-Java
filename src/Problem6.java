@@ -15,35 +15,6 @@ Find the difference between the sum of the squares of the first one hundred natu
  */
 public class Problem6 {
 
-//   Step 1: Find the squares of the first ten natural numbers
-//   Step 2: Find the sum of the first ten natural numbers
-    public int sumOfTheSquaresOfFirstTenNaturalNumbers(){
-//        answer: 385
-        int sum = 0;
-        for (int i = 1; i < 101; i++){
-            sum += i * i;
-        }
-        return sum;
-    }
-
-
-//   Step 3: Find the square of the sum of the ten natural numbers (from step 3)
-    public int squareOfTheSumOfTheFirstTenNaturalNumbers(){
-//    answer: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
-        int sum = 0;
-        for (int i = 1; i < 101; i++){
-            sum += i;
-        }
-
-        int squareOfTheSumTotal = sum * sum;
-        return squareOfTheSumTotal;
-    }
-
-//   Step 4: Find the difference between both of them
-    public int differenceBetweenBoth(){
-         int differenceResult = squareOfTheSumOfTheFirstTenNaturalNumbers() - sumOfTheSquaresOfFirstTenNaturalNumbers();
-        return differenceResult;
-    }
 
     public String run(){
 
@@ -52,5 +23,27 @@ public class Problem6 {
         return String.valueOf(number);
     }
 
+    public int differenceBetweenBoth(){
+        int differenceResult = squareOfTheSumOfTheFirstTenNaturalNumbers() - sumOfTheSquaresOfFirstTenNaturalNumbers();
+        return differenceResult;
+    }
 
+    public int sumOfTheSquaresOfFirstTenNaturalNumbers(){
+        int sum = 0;
+        for (int i = 1; i < 101; i++){
+            sum += i * i;
+        }
+        return sum;
+    }
+
+
+    public int squareOfTheSumOfTheFirstTenNaturalNumbers(){
+        int sum = 0;
+        for (int i = 1; i < 101; i++){
+            sum += i;
+        }
+
+        int squareOfTheSumTotal = sum * sum;
+        return squareOfTheSumTotal;
+    }
 }
