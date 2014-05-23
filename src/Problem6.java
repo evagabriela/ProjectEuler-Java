@@ -20,7 +20,7 @@ public class Problem6 {
     public int sumOfTheSquaresOfFirstTenNaturalNumbers(){
 //        answer: 385
         int sum = 0;
-        for (int i = 1; i < 11; i++){
+        for (int i = 1; i < 101; i++){
             sum += i * i;
         }
         return sum;
@@ -31,7 +31,7 @@ public class Problem6 {
     public int squareOfTheSumOfTheFirstTenNaturalNumbers(){
 //    answer: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
         int sum = 0;
-        for (int i = 1; i < 11; i++){
+        for (int i = 1; i < 101; i++){
             sum += i;
         }
 
