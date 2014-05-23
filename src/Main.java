@@ -27,6 +27,12 @@ public class Main {
         String problem5Solution = problem5.run();
         System.out.println(problem5Solution+" is the smallest number evenly divisible by all numbers from 1 - 20");
 
+
+//Problem 6:
+        Problem6 problem6 = new Problem6();
+        String problem6Solution = problem6.run();
+        System.out.println(problem6Solution+" is the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.");
+
     }
 
 }
