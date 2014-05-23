@@ -15,7 +15,6 @@ Find the difference between the sum of the squares of the first one hundred natu
  */
 public class Problem6 {
 
-
     public String run(){
 
         int number = differenceBetweenBoth();
