@@ -33,6 +33,12 @@ public class Main {
         String problem6Solution = problem6.run();
         System.out.println(problem6Solution+" is the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.");
 
+//Problem 7:
+        Problem7 problem7 = new Problem7();
+        String problem7Solution = problem7.run();
+        System.out.println(problem7Solution+" is the 10 001st prime number.");
+
+
     }
 
 }
