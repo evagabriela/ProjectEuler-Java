@@ -11,9 +11,10 @@ public class Problem8 {
 
     public String run() {
 
-        long largestProduct = 0;
-        for (int i = 0; i < (boxNumber.length() - 13); i++) {
-            long productNumber = Character.getNumericValue(boxNumber.charAt(i)) *
+        long largestProduct = 1;
+        for (int i = 1; i < (boxNumber.length() - 13); i++) {
+             long productNumber =
+                     Character.getNumericValue(boxNumber.charAt(i)) *
                     Character.getNumericValue(boxNumber.charAt(i+1)) *
                     Character.getNumericValue(boxNumber.charAt(i+2)) *
                     Character.getNumericValue(boxNumber.charAt(i+3)) *
@@ -25,13 +26,14 @@ public class Problem8 {
                     Character.getNumericValue(boxNumber.charAt(i+9)) *
                     Character.getNumericValue(boxNumber.charAt(i+10)) *
                     Character.getNumericValue(boxNumber.charAt(i+11)) *
-                    Character.getNumericValue(boxNumber.charAt(i+12)) *
-                    Character.getNumericValue(boxNumber.charAt(i+13)) ;
+                    Character.getNumericValue(boxNumber.charAt(i+12));
             if (productNumber > largestProduct)
                 largestProduct = productNumber;
         }
 
-        return String.valueOf(largestProduct);
+
+
+        return String.valueOf(Long.valueOf(largestProduct));
     }
 
 }
