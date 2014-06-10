@@ -50,11 +50,16 @@ public class Main {
 //        System.out.println(problem9Solution + "is the product of a Pythagorean triplet which sum is equals to 1000.");
 
 
-//Problem 10:
-        Problem10 problem10 = new Problem10();
-        long problem10Solution = problem10.sumOfPrimeNumbersBelow(2000000);
-        System.out.println(problem10Solution + " is the the sum of all the primes below two million");
+////Problem 10:
+//        Problem10 problem10 = new Problem10();
+//        long problem10Solution = problem10.sumOfPrimeNumbersBelow(2000000);
+//        System.out.println(problem10Solution + " is the the sum of all the primes below two million");
+//    }
+// Problem 11:
+        Problem11 problem11 = new Problem11();
+        System.out.println(problem11.greatestProduct());
 
     }
+
 }
 
