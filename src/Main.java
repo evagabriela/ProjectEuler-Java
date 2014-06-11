@@ -54,12 +54,15 @@ public class Main {
 //        Problem10 problem10 = new Problem10();
 //        long problem10Solution = problem10.sumOfPrimeNumbersBelow(2000000);
 //        System.out.println(problem10Solution + " is the the sum of all the primes below two million");
-//    }
-// Problem 11:
-        Problem11 problem11 = new Problem11();
-        System.out.println(problem11.greatestProduct());
+//
+//// Problem 11:
+//        Problem11 problem11 = new Problem11();
+//        System.out.println(problem11.greatestProduct());
+//
 
+//       Problem12
+        Problem12 problem12 = new Problem12();
+        System.out.println(problem12.run());
     }
-
 }
 
